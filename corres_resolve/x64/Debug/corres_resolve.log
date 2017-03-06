@@ -1,0 +1,30 @@
+﻿  vertex_info.c
+  triangle_corr_resolve.c
+  main.c
+  corres_problem_solve.c
+  corres_problem.c
+  correseqn_smoothness.c
+  correseqn_identity.c
+  correseqn_elementary.c
+  correseqn_closest.c
+  correseqn.c
+  closest_point.c
+  adjacent_resolve.c
+  adjacent.c
+  3dtree_split.c
+  3dtree_search.c
+  3dtree.c
+  gl_util.c
+  triangle_corr_dict.c
+  triangle_corr.c
+  surface_matrix.c
+  Generating Code...
+  Compiling...
+  obj_file.c
+  mesh_model.c
+  matrix3x3.c
+  constraint.c
+  cholmod_wrapper.c
+  Generating Code...
+  corres_resolve.vcxproj -> C:\Projects\deformation2\x64\Debug\corres_resolve.exe
+  corres_resolve.vcxproj -> C:\Projects\deformation2\x64\Debug\corres_resolve.pdb (Full PDB)

@@ -1,0 +1,16 @@
+﻿  modelviz_main.c
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\gl\glut.h(33): note: see previous definition of 'CALLBACK'
+  main.c
+  gl_util.c
+  triangle_corr_dict.c
+  triangle_corr.c
+  surface_matrix.c
+  obj_file.c
+  mesh_model.c
+  matrix3x3.c
+  constraint.c
+  cholmod_wrapper.c
+  Generating Code...
+  deformation2.vcxproj -> C:\Projects\deformation2\x64\Debug\modelviz.exe
+  deformation2.vcxproj -> C:\Projects\deformation2\x64\Debug\modelviz.pdb (Full PDB)

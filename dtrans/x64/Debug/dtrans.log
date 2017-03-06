@@ -1,0 +1,189 @@
+﻿  transformer.c
+  mesh_seg.c
+  main.c
+  dt_equation.c
+  gl_util.c
+  triangle_corr_dict.c
+  triangle_corr.c
+  surface_matrix.c
+  obj_file.c
+  mesh_model.c
+  matrix3x3.c
+  constraint.c
+  cholmod_wrapper.c
+  Generating Code...
+  
+  Searching libraries
+      Searching C:\Projects\deformation2\external\lib\liblapack.lib:
+      Searching C:\Projects\deformation2\external\lib\libblas.lib:
+      Searching C:\Projects\deformation2\external\lib\libbtf.lib:
+      Searching C:\Projects\deformation2\external\lib\libamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libccolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcholmod.lib:
+      Searching C:\Projects\deformation2\external\lib\libcolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libumfpack.lib:
+      Searching C:\Projects\deformation2\external\lib\libcxsparse.lib:
+      Searching C:\Projects\deformation2\external\lib\metis.lib:
+      Searching C:\Projects\deformation2\external\lib\libklu.lib:
+      Searching C:\Projects\deformation2\external\lib\libldl.lib:
+      Searching C:\Projects\deformation2\external\lib\libspqr.lib:
+      Searching C:\Projects\deformation2\external\lib\suitesparseconfig.lib:
+      Searching C:\Projects\deformation2\external\lib\glut64.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\OpenGL32.Lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching F:\vs2015\VC\lib\amd64\MSVCRTD.lib:
+      Searching F:\vs2015\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glut32.lib:
+      Searching F:\vs2015\VC\lib\amd64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\ucrtd.lib:
+      Searching C:\Projects\deformation2\external\lib\liblapack.lib:
+      Searching C:\Projects\deformation2\external\lib\libblas.lib:
+      Searching C:\Projects\deformation2\external\lib\libbtf.lib:
+      Searching C:\Projects\deformation2\external\lib\libamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libccolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcholmod.lib:
+      Searching C:\Projects\deformation2\external\lib\libcolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libumfpack.lib:
+      Searching C:\Projects\deformation2\external\lib\libcxsparse.lib:
+      Searching C:\Projects\deformation2\external\lib\metis.lib:
+      Searching C:\Projects\deformation2\external\lib\libklu.lib:
+      Searching C:\Projects\deformation2\external\lib\libldl.lib:
+      Searching C:\Projects\deformation2\external\lib\libspqr.lib:
+      Searching C:\Projects\deformation2\external\lib\suitesparseconfig.lib:
+      Searching C:\Projects\deformation2\external\lib\glut64.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\OpenGL32.Lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching F:\vs2015\VC\lib\amd64\MSVCRTD.lib:
+      Searching F:\vs2015\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glut32.lib:
+      Searching F:\vs2015\VC\lib\amd64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\ucrtd.lib:
+      Searching C:\Projects\deformation2\external\lib\liblapack.lib:
+      Searching C:\Projects\deformation2\external\lib\libblas.lib:
+      Searching C:\Projects\deformation2\external\lib\libbtf.lib:
+      Searching C:\Projects\deformation2\external\lib\libamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libccolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcholmod.lib:
+      Searching C:\Projects\deformation2\external\lib\libcolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libumfpack.lib:
+      Searching C:\Projects\deformation2\external\lib\libcxsparse.lib:
+      Searching C:\Projects\deformation2\external\lib\metis.lib:
+      Searching C:\Projects\deformation2\external\lib\libklu.lib:
+      Searching C:\Projects\deformation2\external\lib\libldl.lib:
+      Searching C:\Projects\deformation2\external\lib\libspqr.lib:
+      Searching C:\Projects\deformation2\external\lib\suitesparseconfig.lib:
+      Searching C:\Projects\deformation2\external\lib\glut64.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\OpenGL32.Lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Projects\deformation2\external\lib\liblapack.lib:
+      Searching C:\Projects\deformation2\external\lib\libblas.lib:
+      Searching C:\Projects\deformation2\external\lib\libbtf.lib:
+      Searching C:\Projects\deformation2\external\lib\libamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libccolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcholmod.lib:
+      Searching C:\Projects\deformation2\external\lib\libcolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libumfpack.lib:
+      Searching C:\Projects\deformation2\external\lib\libcxsparse.lib:
+      Searching C:\Projects\deformation2\external\lib\metis.lib:
+      Searching C:\Projects\deformation2\external\lib\libklu.lib:
+      Searching C:\Projects\deformation2\external\lib\libldl.lib:
+      Searching C:\Projects\deformation2\external\lib\libspqr.lib:
+      Searching C:\Projects\deformation2\external\lib\suitesparseconfig.lib:
+      Searching C:\Projects\deformation2\external\lib\glut64.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\OpenGL32.Lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching F:\vs2015\VC\lib\amd64\MSVCRTD.lib:
+      Searching F:\vs2015\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glut32.lib:
+      Searching F:\vs2015\VC\lib\amd64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\ucrtd.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Projects\deformation2\external\lib\liblapack.lib:
+      Searching C:\Projects\deformation2\external\lib\libblas.lib:
+      Searching C:\Projects\deformation2\external\lib\libbtf.lib:
+      Searching C:\Projects\deformation2\external\lib\libamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libccolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libcholmod.lib:
+      Searching C:\Projects\deformation2\external\lib\libcolamd.lib:
+      Searching C:\Projects\deformation2\external\lib\libumfpack.lib:
+      Searching C:\Projects\deformation2\external\lib\libcxsparse.lib:
+      Searching C:\Projects\deformation2\external\lib\metis.lib:
+      Searching C:\Projects\deformation2\external\lib\libklu.lib:
+      Searching C:\Projects\deformation2\external\lib\libldl.lib:
+      Searching C:\Projects\deformation2\external\lib\libspqr.lib:
+      Searching C:\Projects\deformation2\external\lib\suitesparseconfig.lib:
+      Searching C:\Projects\deformation2\external\lib\glut64.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\OpenGL32.Lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching F:\vs2015\VC\lib\amd64\MSVCRTD.lib:
+      Searching F:\vs2015\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\glut32.lib:
+      Searching F:\vs2015\VC\lib\amd64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x64\ucrtd.lib:
+  
+  Finished searching libraries
+  dtrans.vcxproj -> C:\Projects\deformation2\x64\Debug\dtrans.exe
+  dtrans.vcxproj -> C:\Projects\deformation2\x64\Debug\dtrans.pdb (Full PDB)

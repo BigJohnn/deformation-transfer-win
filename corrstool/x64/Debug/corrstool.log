@@ -1,0 +1,21 @@
+﻿  render_panels.c
+  render_modes.c
+  render_infotext.c
+  pickup_list.c
+  pick.c
+  main.c
+  layout.c
+  keycallback.c
+  interact.c
+  gl_util.c
+  triangle_corr_dict.c
+  triangle_corr.c
+  surface_matrix.c
+  obj_file.c
+  mesh_model.c
+  matrix3x3.c
+  constraint.c
+  cholmod_wrapper.c
+  Generating Code...
+  corrstool.vcxproj -> C:\Projects\deformation2\x64\Debug\corrstool.exe
+  corrstool.vcxproj -> C:\Projects\deformation2\x64\Debug\corrstool.pdb (Full PDB)
