@@ -15,11 +15,11 @@ REM    out.tricorrs:  triangle correspondence resolved by corres_resolve
 
 
 REM Deformation transfer phase:
-dtrans.exe horse_ref.obj camel_ref.obj out.tricorrs horse-*.obj
+dtrans.exe horse_ref.obj camel_ref.obj out.tricorrs horse-01.obj horse-02.obj horse-03.obj horse-04.obj horse-05.obj horse-06.obj horse-07.obj horse-08.obj horse-09.obj
 
 
 REM Generated camel poses are saved as out_REMREM.obj
-corrstool.exe horse-01.obj out_0.obj
+REM corrstool.exe horse-01.obj out_0.obj
 corrstool.exe horse-02.obj out_1.obj
 corrstool.exe horse-03.obj out_2.obj
 REM ...
